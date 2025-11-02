@@ -1,12 +1,8 @@
 
 # Project Report
-## Online Recipe and Meal Planning System
+## Online Recipe and Meal Planning
 
 **Author:** AFM Noorjahan Kanok  
-**Date:** November 02, 2025  
-**Course:** Web Application Development / Database Systems  
-**Institution:** [Your Institution Name Here]
-
 ---
 
 ## 1. Abstract
@@ -91,21 +87,13 @@ $pdo->commit();
 ## 6. Testing and Validation
 | Feature | Status | Validation |
 |--------|--------|------------|
-| Registration | ✅ Passed | Input validation and hash creation |
-| Login | ✅ Passed | Password verification (hash/plaintext for demo) |
-| Recipe Listing | ✅ Passed | SQL joins retrieve accurate results |
-| Meal Plan Creation | ✅ Passed | Transaction commits successfully |
-| Grocery List | ✅ Passed | Ingredients correctly aggregated with joins |
+| Registration | Passed | Input validation and hash creation |
+| Login | Passed | Password verification (hash/plaintext for demo) |
+| Recipe Listing | Passed | SQL joins retrieve accurate results |
+| Meal Plan Creation | Passed | Transaction commits successfully |
+| Grocery List | Passed | Ingredients correctly aggregated with joins |
 
 ---
 
 ## 7. Conclusion
 The Online Recipe and Meal Planning System effectively integrates backend logic, relational data handling, and front-end usability. It demonstrates database normalization, secure user authentication, and practical use of transactions.
-
-**Future Enhancements:**
-- Add image upload functionality for recipes.  
-- Include dietary filters for meal recommendations.  
-- Implement mobile responsiveness and AJAX-based updates.
-
----
-**End of Report**
