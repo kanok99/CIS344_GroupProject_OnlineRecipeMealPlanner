@@ -1,6 +1,6 @@
 
 # Project Report
-## Online Recipe and Meal Planning System
+## Online Recipe and Meal Planning
 
 **Author:** AFM Noorjahan Kanok   
 
@@ -8,7 +8,7 @@
 ---
 
 ## 1. Abstract
-The *Online Recipe and Meal Planning System* is a dynamic web-based solution designed to streamline meal organization and grocery preparation. Users can browse recipes, create personalized meal plans, and generate grocery lists automatically. The system demonstrates the integration of **PHP**, **MySQL**, and **HTML/CSS** with secure data handling.
+The *Online Recipe and Meal Planning System* is a dynamic web-based solution designed to streamline meal organization and grocery preparation. Users can browse recipes, create personalized meal plans, and generate grocery lists automatically. The system demonstrates the integration of **PHP**, **MySQL**, and **HTML** with secure data handling.
 
 ---
 
@@ -23,14 +23,14 @@ The *Online Recipe and Meal Planning System* is a dynamic web-based solution des
 - Implement relational data management using MySQL joins.
 - Ensure secure authentication and data validation.
 - Employ transactional control for multi-step operations.
-- Deliver a functional front-end with HTML and CSS.
+- Deliver a functional front-end with HTML.
 
 ---
 
 ## 3. System Design and Architecture
 ### Architecture Overview
 The system follows a **three-tier architecture**:
-1. **Presentation Layer:** HTML and CSS for UI.
+1. **Presentation Layer:** HTML for UI.
 2. **Application Layer:** PHP for server-side logic.
 3. **Database Layer:** MySQL relational schema for data storage.
 
@@ -40,8 +40,6 @@ The system follows a **three-tier architecture**:
 - `recipes.php` — displays recipes with JOIN query.  
 - `mealplan.php` — handles creation and saving of meal plans via transactions.  
 - `grocerylist.php` — aggregates ingredients from related recipes.
-
-A minimal CSS theme (text-only) improves readability while keeping the UI lightweight.
 
 ---
 
@@ -89,21 +87,13 @@ $pdo->commit();
 ## 6. Testing and Validation
 | Feature | Status | Validation |
 |--------|--------|------------|
-| Registration | ✅ Passed | Input validation and hash creation |
-| Login | ✅ Passed | Password verification (hash/plaintext for demo) |
-| Recipe Listing | ✅ Passed | SQL joins retrieve accurate results |
-| Meal Plan Creation | ✅ Passed | Transaction commits successfully |
-| Grocery List | ✅ Passed | Ingredients correctly aggregated with joins |
+| Registration | Passed | Input validation and hash creation |
+| Login | Passed | Password verification (hash/plaintext for demo) |
+| Recipe Listing | Passed | SQL joins retrieve accurate results |
+| Meal Plan Creation | Passed | Transaction commits successfully |
+| Grocery List | Passed | Ingredients correctly aggregated with joins |
 
 ---
 
 ## 7. Conclusion
-The Online Recipe and Meal Planning System effectively integrates backend logic, relational data handling, and front-end usability. It demonstrates database normalization, secure user authentication, and practical use of transactions.
-
-**Future Enhancements:**
-- Add image upload functionality for recipes.  
-- Include dietary filters for meal recommendations.  
-- Implement mobile responsiveness and AJAX-based updates.
-
----
-**End of Report**
+The Online Recipe and Meal Planning effectively integrates backend logic, relational data handling, and front-end usability. It demonstrates database normalization, secure user authentication, and practical use of transactions.
