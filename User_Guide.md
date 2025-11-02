@@ -3,8 +3,6 @@
 ## Online Recipe and Meal Planning System
 
 **Author:** AFM Noorjahan Kanok  
-**Date:** November 02, 2025
-
 ---
 
 ## 1. System Requirements
@@ -88,4 +86,4 @@ No password is required by default in XAMPP.
 ---
 
 ## 8. Conclusion
-This user guide provides all necessary steps to install, configure, and operate the system locally. The application is structured for academic grading and can be extended for production use.
+This user guide provides all necessary steps to install, configure, and operate the system locally.
