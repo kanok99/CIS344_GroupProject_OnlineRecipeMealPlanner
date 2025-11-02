@@ -1,0 +1,1 @@
+<footer><hr><p>&copy; 2025 Online Recipe Meal Planner</p></footer>
