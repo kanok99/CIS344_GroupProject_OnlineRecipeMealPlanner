@@ -2,10 +2,8 @@
 # Project Report
 ## Online Recipe and Meal Planning System
 
-**Author:** AFM Noorjahan Kanok  
-**Date:** November 02, 2025  
-**Course:** Web Application Development / Database Systems  
-**Institution:** [Your Institution Name Here]
+**Author:** AFM Noorjahan Kanok   
+
 
 ---
 
