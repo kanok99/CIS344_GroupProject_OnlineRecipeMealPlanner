@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db   = 'meal_planner_db';   // your database name
-$user = 'root';              // MAMP default username
-$pass = 'root';              // MAMP default password
+$db   = 'meal_planner_db';   
+$user = 'root';              
+$pass = 'root';              
 
 $dsn = "mysql:host=$host;dbname=$db;charset=utf8mb4";
 
